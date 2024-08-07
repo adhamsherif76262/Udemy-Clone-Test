@@ -10,7 +10,7 @@ async function Courses() {
     // const Tabs = TabsResponse.data
     return (
       <>
-        // <CoursesSection  CourseIntro={courseIntro} TabNames = {Tabs}></CoursesSection>
+      {/*<CoursesSection  CourseIntro={courseIntro} TabNames = {Tabs}></CoursesSection>*/}
     </>
   )
 }
