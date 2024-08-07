@@ -2,7 +2,7 @@
 import React from 'react'
 import Styles from "../Courses.module.css"
 import { useState, useEffect, useRef } from 'react';
-import Carousel from "react-elastic-carousel";
+// import Carousel from "react-elastic-carousel";
 import "../CarouselStyle.module.css";
 import Rating from '../../Components/Rating';
 
