@@ -1,0 +1,482 @@
+.d_none{
+    display: none;
+}
+ .nav_bar{
+    width: 100%;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.08);
+    z-index: 1;
+} 
+.nav_item{
+    margin: 0px 10px ;
+    white-space: nowrap;
+}
+.udemy_logo{
+    width: 6rem;
+}
+.nav_form {
+    flex-grow: 1;
+}
+.NavBar_anchors {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.NavBar_anchors:hover {
+    color: blue;
+}
+.NavBar_form {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    border-radius: 100px;
+    justify-content: start;
+    align-items: center;
+    background-color: #f7f9fa;
+}
+.h1{
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-size: 45px;
+    text-align: start;
+}
+.form_inp{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 5px 10px;
+    width: 90%;
+}
+.search_icon{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-left: 10px;
+    cursor:not-allowed;
+    width: 8%;
+}
+.btn {
+    padding: 13px;
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btn_login {
+    background-color: white;
+}
+.btn_signup {
+    background-color: black;
+    color: white;
+}
+.btn_signup:hover {
+    background-color: #333;
+}
+.btn_login:hover{
+    background-color: #eee;
+}
+.language_icon{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.language_icon:hover {
+    color: black;
+    background-color: #eee;
+}
+
+.Hidden{
+    display: none;
+}
+.partner_logos{
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    width: 100%;
+    height: 255px;
+}
+.Sale_Section{
+   width: 100%;
+}
+.Sales_Div{
+    height: 175px;
+    width: 440px;
+    background-color: white;
+    position:absolute;
+    left: 10%;
+    top: 15%;
+    box-shadow: 0px 0px 50px rgb(206, 194, 194);
+}
+.Logos_Img_Containter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.Logos_H3{
+    padding-bottom: 50px;
+    opacity: 0.6;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.Sale_Img{
+    height: 400px;
+    width: 90%;
+    object-fit:scale-down;
+    object-position: top;
+    z-index: -1;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+}
+.Sale_Img_2{
+    display: none;
+    height: 320px;
+    width: 100%;
+    z-index: -1;
+}
+
+.Sales_P{
+    padding-left: 25px;
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: start;
+}
+.Selection_Of_Courses{
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 85%;
+    height: 580px;
+    border: 0.5px solid rgb(210, 200, 200);
+}
+.Python_Courses_Div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    cursor: pointer;
+}
+/* This symbol means the absolute child of the parent >*/
+.Python_Course:hover > div {
+  -webkit-filter: grayscale(50%); 
+    filter: black; 
+}
+
+.Python_Course_Img {
+  -webkit-filter: grayscale(0%);
+    filter: none;
+    width: 100%;
+}
+.Python_Course{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 300px;
+    transform: scale(95%,95%);
+}
+.Python_Course_Modified{
+    height: 350px;
+}
+.Python_Career_Opportunities_Div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 35px;
+    justify-content:space-around;
+    align-items:start;
+    flex-wrap: wrap;
+}
+.Python_Course_H3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.Python_Course_H5{
+    color: gray;
+}
+.Python_Course_Price_Div{
+    display: flex;
+    justify-content:start;
+    flex-direction: row;
+    align-items: end;
+    flex-wrap: wrap;
+}
+.Price{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.Deleted_Price{
+    font-size: 18px;
+    color: gray;
+}
+.Best_Seller_Span{
+    background-color: goldenrod;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 5px;
+}
+
+.Top_Categories_Section{
+   margin-right: 7.5%;
+    margin-left: 7.5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 85%;
+}
+.Top_Categories_Div_H2{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+.Top_Categories_Div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.Top_Categories_Card{
+    background-color: rgb(247, 249, 250);
+    margin-bottom: 15px;
+}
+.Top_Categories_Card>a>img{
+    /*To prevent the Image from overflowing the parent*/
+     width: 100%;
+}
+.Top_Categories_Article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    /* These two properties prevents the childs of the element from overflowing*/
+    min-width: 0;
+    min-height: 0;
+}
+
+.Top_Categories_Card>a>img:hover{
+    transform: scale(105%);
+    transition-duration: 100ms;
+    transition-timing-function: cubic-bezier(0.2, 0, 1, 0.9);
+    transition-delay: 0s;
+}
+.Top_Categories_Article>h3{
+    font-weight: bold;
+}
+
+.Python_Career_Opportunities_P{
+    max-width: 750px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    flex-shrink: 1;
+}
+.Explore_Button{
+    width:max-content;
+    padding: 5px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.Explore_Button:hover {
+    background-color: rgb(233, 233, 233);
+}
+.Jose_Portilla_Python_Course{
+    margin-right: 20px;
+}
+.Zero_To_Hero_Python_Course{
+    margin-left: 20px;
+}
+
+@media (max-width : 1535px){
+    .Sale_Img{
+        min-height: 400px;
+        width: 100%;
+    }
+    .partner-logos{
+        object-fit: scale-down;
+        object-position: top;
+    }
+    .Selection_Of_Courses{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .Top_Categories_Section{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width : 1200px){
+    .Jose_Portilla_Python_Course{
+        display: none;
+    }
+    .Python_Courses_Div{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media (max-width : 1080px) {
+    .udemy_business {
+        display: none;
+    }
+}
+@media screen and (max-width : 980px){
+    .Logos_H3{
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0px;
+        opacity: 0.7;
+        word-spacing: 0px;
+        letter-spacing: 0px;
+    }
+    .Img_Logos_Squared{
+        max-height: 50px;
+        min-width: 20%;
+        margin-top: 25px;
+    }
+    .Img_Logos_Rectangled{
+        max-height: 50px;
+        min-width: 21%;
+        margin-top: 25px;
+    }
+     .Img_Containter{
+        justify-content: space-between;
+    }
+    .Sales_Div{
+        width: 400px;
+    }
+    .Kirill_Eremenko_Python_Course{
+        display: none;
+    }
+    .Python_Courses_Div{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media (max-width: 900px) {
+    .teach_on_udemy{
+        display: none;
+    }
+    .Sales_Div{
+        transform: scale(75%);
+    }
+}
+@media (max-width : 800px) {
+    .btn ,  .categories ,  .nav_form  , .language {
+        display: none;
+    }
+    .d_none{
+        display: inline-block;
+    }
+    .udemy{
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+    }
+    .Sales_Div{
+        transform: scale(70%);
+    }
+}
+@media screen and (max-width : 700px){
+    .h1{
+        font-size: 28px;
+        padding-bottom: 8px;
+    }
+     .Sale_Img{
+        display: none;
+    }
+    .Sale_Img_2{
+        display: block;
+        z-index: -1;
+    }
+    .Sales_P{
+        font-size: 18px;
+        margin: 0px;
+    }
+    .Logos_H3{
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Sales_Div{
+        background: none;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        transform: scale(90%);
+        top: 45%;
+        left: -5%;
+        min-width: max-content;
+    }
+    .nav_bar{
+        margin-bottom: -50px;
+        background-color: white;
+    }
+    .Hidden{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top:150px ;
+        margin-left:25px ;
+        margin-bottom:-20px ;
+        height: 50px;
+        width: 95%;
+        cursor: pointer;
+        background-color: white;
+        border: 1px solid black;
+    }
+    .Dr_Angela_YU_Python_Course{
+        display: none;
+    }
+    .Python_Courses_Div{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Top_Categories_Div{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width : 600px){
+    .Python_Career_Opportunities_Div{
+        display: none;
+    }
+    .Selection_Of_Courses{
+        height: max-content;
+        min-width: max-content;
+    }
+    .Python_Course{
+        min-height: max-content;
+    }
+    .Python_Course_H3{
+        margin-top: 100px;
+    }
+    .Sales_Div{
+        position: absolute;
+        min-width: min-content;
+    }
+}
+@media screen and (max-width : 350px) {
+    .Top_Categories_Article>h3{
+    transform: scale(50%);
+    }
+    .Sales_Div{
+        transform: scale(70%);
+        left: -25%;
+    }
+}
+/* When the width is between 600px and 900px or above 1100px - change the appearance of <div> */
+/* @media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {} */

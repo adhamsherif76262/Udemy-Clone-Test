@@ -1,0 +1,148 @@
+.CourseContentH2{
+    padding-bottom: 25px;
+    padding-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.CourseContentDiv{
+    width: 47%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.CourseContentHeaderDiv{
+    display: flex;
+}
+.CourseContentHeaderMotherDiv{
+    display: flex;
+    align-items: center;
+}
+.CourseContentHeaderOuterDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.CourseContentHeaderSpan{
+    margin-left: 20px;
+}
+.D_None{
+    display: none;
+}
+.MoreSectionsBtn{
+    font-size: 100%;
+    background: none;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+}
+.MoreSectionsBtn:hover{
+    background-color: lightgray;
+}
+.AccordionTitle{
+    width: 420px;
+}
+.LectureSummaryMotherDiv{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+    flex-wrap: nowrap;
+}
+.LectureSummaryDiv{
+    padding-left: 20px;
+}
+.LectureDescriptionBtn{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.LectureDescriptionDiv{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.InstructorMotherDiv{
+    width: 47%;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 50px;
+}
+.InstructorDiv{
+    display: flex;
+}
+.InstructorInnerDiv{
+    margin-left: 30px;
+    line-height: 3em;
+}
+.InstructorRatingDiv{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.InstructorInnerSpan{
+    margin-left: 15px;
+}
+.InstructorImage{
+    width: 175px;
+    height: 175px;
+    margin-top: 10px;
+}
+.InstructorH2{
+    margin-bottom: 30px;
+}
+.InstructorH3{
+    margin-bottom: 30px;
+}
+.InstructorH4{
+    margin-bottom: 30px;
+}
+.DownMotherDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.DownComponentInnerSpan{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media screen and (max-width : 1535px) {
+    .CourseContentDiv{
+        width: 85%;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width : 800px) {
+    .CourseContentDiv{
+        margin-left: 0%;
+        margin-top: 0%;
+        font-size: 15px;
+    }
+        .DownMotherDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+    }
+    .DownComponentInnerSpan{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width : 700px) {
+    .CourseContentDiv{
+        margin: 0px;
+        width: 98%;
+    }
+
+}
+@media screen and (max-width : 600px) {
+    .CourseContentDiv{
+        margin: 0px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width : 520px) {
+    .DownMotherDiv{
+        display: none;
+    }
+}
+@media screen and (max-width : 350px) {
+    .CourseContentHeaderMotherDiv{
+        display: none;
+    }
+}

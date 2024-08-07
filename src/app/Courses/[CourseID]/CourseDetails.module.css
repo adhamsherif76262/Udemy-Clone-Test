@@ -1,0 +1,176 @@
+.HeaderDiv{
+    background-color: #333;
+    color: white;
+    width: 100%;
+    height: 50vh;
+    display:flex;
+    position: relative;
+    bottom: 310px;
+}
+.inner{
+    height: 100%;
+    padding-top: 30px;
+    width: 50%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+.ContainerDiv{
+    position: relative;
+    bottom: 310px;
+    /* height: ;  */
+}
+.SidebarDiv{
+    width: 22%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    border: 1px white solid;
+    position: sticky ;
+    top: 0%;
+    left: 70%;
+    z-index: 100;
+}
+.CourseRating{
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.CourseRatingSpan{
+    padding-right : 25px;
+    padding-left : 25px;
+    cursor: pointer;
+}
+.CourseRatingSpan :hover{
+    text-decoration: underline;
+}
+.CourseUpdate{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.CourseUpdateExclamation{
+    background-color: white ;
+    color: #333;
+    width: 250px;
+    height: 250px;
+}
+.CourseDescription{
+    font-size: 18px;
+}
+.CourseUl{
+    list-style: none;
+}
+.LearningObjectivesDiv{
+    width: 47%;
+    border: 1px solid #333;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+.LearningObjectivesUL{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    list-style-image: url("/Images/checked.png");
+}
+.LearningObjectivesLi{
+    width: 50%;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.LearningObjectivesH2{
+    padding-bottom: 25px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.Course_Req_Desc_Div{
+    width: 47%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.RequirementsDiv{
+    width: 47%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.RequirementsH2{
+    padding-bottom: 25px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.RequirementsUL{
+    width: 90%;
+    margin: 0 auto;
+}
+.RequirementsLi{
+    width: 100%;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+.Show_More_Less_Span{
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.Show_More_Less_Btn{
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Show_More_Less_Div{
+    display: flex;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.Gradient{
+    -webkit-mask-image: linear-gradient(#ffffff,#ffffff,rgba(255,255,255,0));
+    mask-image: linear-gradient(#ffffff,#ffffff,rgba(255, 255, 255, 0));
+}
+.Overflow{
+    overflow:auto;
+    width: 100%;
+    max-height: 600px;
+}
+.DescriptionP{
+    width: 97%;
+    margin-left: 15px;
+    line-height: 2em;
+}
+
+@media screen and (max-width : 1535px) {
+    .SidebarDiv{
+        display: none;
+    }
+}
+@media screen and (max-width : 800px) {
+    .inner{
+        margin-left: 0%;
+        transform: scale(75%);
+    }
+}
+@media screen and (max-width : 700px) {
+    .inner{
+        transform: scale(60%);
+        height: 100px;
+    }
+    .SidebarDiv{
+        height: 30%;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width : 450px) {
+    .inner{
+        transform: scale(50%);
+    }
+}

@@ -1,0 +1,78 @@
+.Home_Tab{
+    margin-right: 50px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background:none;
+    cursor: pointer;
+}
+.Courses_Mother_Div{
+    border: 0.5px solid #d1d7dc;
+    width: 90%;
+    margin-left:5% ;
+    margin-right:5% ;
+}
+.Hidden{
+    display: none;
+}
+.Bold{
+    font-weight: bold;
+}
+.Slides{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 100%;
+  margin-right:10px ;
+  cursor: pointer;
+}
+.Slides:hover{
+  filter: grayscale(60%);
+}
+.carouselImg{
+    width:100% ;
+    height:65% ;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.CoursesH4{
+    margin-left: 65px;
+}
+.StaticCoursesContent{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.M_Top{
+    margin-top: 25px;
+}
+.M_Bottom{
+    margin-bottom: 15px;
+}
+.CourseDesc{
+    width: 80%;
+}
+.ExploreBtn{
+    width: max-content;
+    padding: 5px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.ExploreBtnAnchor{
+    text-decoration: none;
+    color: black;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

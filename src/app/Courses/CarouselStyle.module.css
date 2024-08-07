@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.StudentFeedbackMotherDiv{
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 50px;
+  width: 47%;
+}
+.StudentFeedbackRatingDiv{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.StudentFeedbackRatingSpan{
+  margin-left: 10px;
+  margin-top: 4px;
+}
+.StudentFeedbackRatingInnerSpan{
+  margin-left: 15px;
+}
+.StudentFeedbackRatingP{
+  line-height: 3em;
+}
+.StudentFeedbackH2{
+  margin-bottom: 25px;
+}
+.ReviewsComponentHeaderDiv{
+  display: flex;
+}
+.ReviewsComponentHeaderInnerDiv{
+  margin-right: 180px;
+}
+.ReviewsComponentHeaderH2{
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 50px;
+  width: 47%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ReviewsComponentRateDiv{
+  display: flex;
+  justify-content: space-between;
+  width: 225px;
+}
+.ReviewsComponentDiv{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.ReviewsComponentCommentDiv{
+  line-height: 2em;
+}
+.ReviewsComponentOuterDiv{
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 50px;
+  width: 47%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 25px;
+}
+.Show_More_Less_Div{
+  width: 47%;
+  margin-left: 16%;
+  margin-right: 16%;
+  margin-top: 25px;
+}
+@media screen and (max-width : 800px) {
+    .ReviewsComponentOuterDiv{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width : 500px) {
+    .ReviewsComponentOuterDiv ,.ReviewsComponentHeaderH2{
+      margin-left: 5%;
+    }
+}
